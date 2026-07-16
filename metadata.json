@@ -1,0 +1,6 @@
+{
+  "name": "WarriorOG Portfolio",
+  "description": "A highly polished, interactive portfolio for WarriorOG featuring fluid motion, theme reveal transitions, and interactive project playgrounds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
