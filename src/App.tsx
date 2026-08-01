@@ -430,7 +430,7 @@ export default function App() {
       setChatHistory(prev => [...prev, {
         id: Date.now().toString(),
         role: 'model',
-        text: data.text || "I'm having a connection blip, but let's keep building! What else can I share about Ujjwal?"
+        text: data.text || "I'm having a connection blip, but let's keep building! What else can I share about Naman?"
       }]);
 
       if (!isMuted) {
@@ -452,7 +452,7 @@ export default function App() {
 
   useEffect(() => {
     let timer: any;
-    if (hoveredProject === 'warriorog') {
+    if (hoveredProject === 'vrtfolio') {
       timer = setInterval(() => {
         setPortfolioStep(prev => (prev + 1) % 5);
         const matrixPhrases = [
@@ -474,7 +474,7 @@ export default function App() {
   useEffect(() => {
     let timer: any;
     let progressTimer: any;
-    if (hoveredProject === 'buildnix') {
+    if (hoveredProject === 'vortexstream') {
       setBuildStatus('building');
       setBuildProgress(0);
       setBuildLogs(["🚀 INITIALIZING BUILD ENVIRONMENT...", "📦 COMPILING FLUID MODULES..."]);
@@ -497,7 +497,7 @@ export default function App() {
             if (!isMuted) {
               synth.playSuccess();
             }
-            return [...prev, "✔ CONTAINER DEPLOYED TO https://buildnix.com/live"];
+            return [...prev, "✔ CONTAINER DEPLOYED TO https://vortexstram.qzz.io/"];
           }
           return [...prev, nextLogs[prev.length - 2]];
         });
@@ -847,12 +847,12 @@ export default function App() {
 
                   <div className="flex items-center justify-between w-full mt-4 px-1.5">
                     <a
-                      href="https://warriorog.in"
+                      href="https://vrtfolio.vercel.app"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="font-bold text-lg font-sans text-neutral-900 dark:text-white flex items-center gap-1.5 hover:text-pink-400 transition-colors"
                     >
-                      NamanKumar.in Portfolio
+                      vrtfolio.vercel.app Portfolio
                       <span className="inline-block relative -top-0.5">
                         <svg className="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
@@ -878,12 +878,12 @@ export default function App() {
 
                   <div className="flex items-center justify-between w-full mt-4 px-1.5">
                     <a
-                      href="https://buildnix.com"
+                      href="https://vortexstream.qzz.io"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="font-bold text-lg font-sans text-neutral-900 dark:text-white flex items-center gap-1.5 hover:text-pink-400 transition-colors"
                     >
-                      buildnix.com
+                      vortexstream.qzz.io
                       <span className="inline-block relative -top-0.5">
                         <svg className="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
@@ -898,7 +898,7 @@ export default function App() {
 
               <footer className="w-full text-center mt-16 pt-8 border-t border-neutral-200/40 dark:border-neutral-800/50">
                 <p className="text-[10px] font-mono opacity-45 uppercase tracking-widest flex items-center justify-center gap-1 text-neutral-500 dark:text-neutral-400">
-                  made by warriorog
+                  made by namankumar
                 </p>
               </footer>
             </motion.div>
@@ -926,7 +926,7 @@ export default function App() {
               }`}>
                 <div className="flex items-center gap-2">
                   <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                  <span className="font-serif font-bold italic text-md text-neutral-900 dark:text-white">WarriorOG AI Twin</span>
+                  <span className="font-serif font-bold italic text-md text-neutral-900 dark:text-white">Naman Kumar AI Twin</span>
                 </div>
                 <button
                   onClick={() => setIsChatOpen(false)}
@@ -987,7 +987,7 @@ export default function App() {
                   onClick={() => handleSendChat("What build processes does buildnix.com compile?")}
                   className="px-3 py-1 rounded-full border border-neutral-500/15 text-[10px] hover:border-pink-400 hover:text-pink-400 transition-colors cursor-pointer text-left font-mono"
                 >
-                  Buildnix Compiler ⚡
+                  Streaming Site ⚡
                 </button>
                 <button
                   onClick={() => handleSendChat("What is your developer tech stack?")}
