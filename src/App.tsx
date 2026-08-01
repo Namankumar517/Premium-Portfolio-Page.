@@ -852,7 +852,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="font-bold text-lg font-sans text-neutral-900 dark:text-white flex items-center gap-1.5 hover:text-pink-400 transition-colors"
                     >
-                      vrtfolio.vercel.app Portfolio
+                      Vortex Portfolio
                       <span className="inline-block relative -top-0.5">
                         <svg className="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
@@ -883,7 +883,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="font-bold text-lg font-sans text-neutral-900 dark:text-white flex items-center gap-1.5 hover:text-pink-400 transition-colors"
                     >
-                      vortexstream.qzz.io
+                      Vortex Stream
                       <span className="inline-block relative -top-0.5">
                         <svg className="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
