@@ -898,7 +898,7 @@ export default function App() {
 
               <footer className="w-full text-center mt-16 pt-8 border-t border-neutral-200/40 dark:border-neutral-800/50">
                 <p className="text-[10px] font-mono opacity-45 uppercase tracking-widest flex items-center justify-center gap-1 text-neutral-500 dark:text-neutral-400">
-                  made by namankumar
+                  made by naman kumar
                 </p>
               </footer>
             </motion.div>
@@ -978,13 +978,13 @@ export default function App() {
 
               <div className="px-4 py-3 flex flex-wrap gap-1.5 max-h-24 overflow-y-auto border-t border-neutral-500/10 pt-3">
                 <button
-                  onClick={() => handleSendChat("Tell me about WarriorOG.in")}
+                  onClick={() => handleSendChat("Tell me about Vortex Portfolio")}
                   className="px-3 py-1 rounded-full border border-neutral-500/15 text-[10px] hover:border-pink-400 hover:text-pink-400 transition-colors cursor-pointer text-left font-mono"
                 >
                   Portfolio Site 🎨
                 </button>
                 <button
-                  onClick={() => handleSendChat("What build processes does buildnix.com compile?")}
+                  onClick={() => handleSendChat("What are the features of Vortex Stream")}
                   className="px-3 py-1 rounded-full border border-neutral-500/15 text-[10px] hover:border-pink-400 hover:text-pink-400 transition-colors cursor-pointer text-left font-mono"
                 >
                   Streaming Site ⚡
@@ -1007,7 +1007,7 @@ export default function App() {
                   onKeyDown={e => {
                     if (e.key === 'Enter') handleSendChat();
                   }}
-                  placeholder="Ask WarriorOG's AI Twin..."
+                  placeholder="Ask Naman Kumar's AI Twin..."
                   className={`flex-1 px-4 py-3 rounded-xl text-xs border focus:outline-none transition-colors ${
                     theme === 'dark'
                       ? 'bg-neutral-900/60 border-neutral-800 focus:border-white text-white'
