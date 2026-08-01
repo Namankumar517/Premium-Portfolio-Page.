@@ -246,7 +246,7 @@ export default function App() {
   const [buildProgress, setBuildProgress] = useState<number>(0);
   const [buildStatus, setBuildStatus] = useState<'idle' | 'building' | 'complete'>('idle');
 
-  const [avatarSrc, setAvatarSrc] = useState<string>('https://github.com/WarriorOGZz.png');
+  const [avatarSrc, setAvatarSrc] = useState<string>('https://i.ibb.co/zVkmZxyk/file-0000000092708243a1900ced151de552.png');
   const [avatarLoaded, setAvatarLoaded] = useState(false);
   const [avatarErrorCount, setAvatarErrorCount] = useState(0);
 
@@ -269,7 +269,7 @@ export default function App() {
       {
         id: 'welcome',
         role: 'model',
-        text: "Hey! I'm Ujjwal's AI Twin. I'm trained on his specific fullstack tech stack and projects. Ask me anything about Python backend systems, PyTorch models, or agent automation! 🚀"
+        text: "Hey! I'm Naman's AI Twin. I'm trained on his specific fullstack tech stack and projects. Ask me anything about Python backend systems, PyTorch models, or agent automation! 🚀"
       }
     ]);
   }, []);
@@ -383,7 +383,7 @@ export default function App() {
   };
 
   const copyEmail = () => {
-    navigator.clipboard.writeText('support@warriorog.space');
+    navigator.clipboard.writeText('vortex517@proton.me');
     if (!isMuted) {
       synth.playSuccess();
     }
@@ -445,7 +445,7 @@ export default function App() {
       setChatHistory(prev => [...prev, {
         id: Date.now().toString(),
         role: 'model',
-        text: "I'm currently in offline fallback mode, but Ujjwal's system is fully operational. Ask me anything about Python, PyTorch, or React!"
+        text: "I'm currently in offline fallback mode, but Naman's system is fully operational. Ask me anything about Python, PyTorch, or React!"
       }]);
     }
   };
@@ -579,7 +579,7 @@ export default function App() {
                   <div className="relative w-12 h-12 rounded-full overflow-hidden border border-neutral-200/60 dark:border-neutral-800/70 bg-neutral-100 dark:bg-neutral-900 shadow-sm flex items-center justify-center">
                     <img
                       src={avatarSrc}
-                      alt="WarriorOG"
+                      alt="Naman Kumar"
                       referrerPolicy="no-referrer"
                       className={`w-full h-full object-cover absolute inset-0 transition-opacity duration-300 z-10 ${
                         avatarLoaded ? 'opacity-100' : 'opacity-0'
@@ -620,10 +620,10 @@ export default function App() {
                   
                   <div className="flex flex-col">
                     <h1 className="text-xl font-bold font-serif italic tracking-tight text-neutral-900 dark:text-white flex items-center gap-1">
-                      WarriorOG
+                      Naman Kumar
                     </h1>
                     <p className="text-[11px] font-sans text-neutral-500 dark:text-neutral-400 font-medium tracking-wide">
-                      Frontend Engineer & UI/UX Designer
+                      Frontend Engineer & Bot Developer
                     </p>
                   </div>
                 </div>
@@ -657,9 +657,9 @@ export default function App() {
 
               <main className="space-y-6 text-neutral-700 dark:text-neutral-300 leading-[1.75] text-[15px] md:text-[16px]">
                 <p>
-                  I'm a 15 y/o mobile design engineer working in{' '}
+                  I'm a 17 y/o mobile design engineer working in{' '}
                   <span
-                    onClick={() => { handleTriggerClick(); spawnToast('success', 'Python powers WarriorOG\'s custom intelligence workflows!'); }}
+                    onClick={() => { handleTriggerClick(); spawnToast('success', 'Python powers Naman Kumar\'s custom intelligence workflows!'); }}
                     className="inline-flex items-center gap-1 font-semibold text-neutral-900 dark:text-white cursor-pointer select-none border-b-2 border-amber-500/40 hover:border-amber-500 transition-all pb-0.5"
                   >
                     <svg className="w-3.5 h-3.5 text-amber-500" viewBox="0 0 24 24" fill="currentColor">
@@ -852,7 +852,7 @@ export default function App() {
                       rel="noopener noreferrer"
                       className="font-bold text-lg font-sans text-neutral-900 dark:text-white flex items-center gap-1.5 hover:text-pink-400 transition-colors"
                     >
-                      WarriorOG.in Portfolio
+                      NamanKumar.in Portfolio
                       <span className="inline-block relative -top-0.5">
                         <svg className="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
